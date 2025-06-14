@@ -18,7 +18,7 @@ jobs:
           fetch-depth: 1
 
       - name: Automatic PR Review
-        uses: grll/claude-code-action@beta
+        uses: seri114/claude-code-action
         with:
           use_oauth: true
           claude_access_token: ${{ secrets.CLAUDE_ACCESS_TOKEN }}
